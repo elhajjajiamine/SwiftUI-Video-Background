@@ -13,6 +13,8 @@
 		10697306253C4A00000493C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10697305253C4A00000493C7 /* Preview Assets.xcassets */; };
 		10697311253C4A00000493C7 /* SwiftUI_Video_BackgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10697310253C4A00000493C7 /* SwiftUI_Video_BackgroundTests.swift */; };
 		1069731C253C4A00000493C7 /* SwiftUI_Video_BackgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1069731B253C4A00000493C7 /* SwiftUI_Video_BackgroundUITests.swift */; };
+		1069732D253C4A22000493C7 /* LoopingPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1069732C253C4A22000493C7 /* LoopingPlayer.swift */; };
+		1069733B253C4DF4000493C7 /* freestyle.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1069733A253C4DF4000493C7 /* freestyle.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		10697317253C4A00000493C7 /* SwiftUI Video BackgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Video BackgroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1069731B253C4A00000493C7 /* SwiftUI_Video_BackgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Video_BackgroundUITests.swift; sourceTree = "<group>"; };
 		1069731D253C4A00000493C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1069732C253C4A22000493C7 /* LoopingPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopingPlayer.swift; sourceTree = "<group>"; };
+		1069733A253C4DF4000493C7 /* freestyle.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = freestyle.mov; path = ../../../../freestyle.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +99,13 @@
 		106972FD253C49FF000493C7 /* SwiftUI Video Background */ = {
 			isa = PBXGroup;
 			children = (
+				10697335253C4D31000493C7 /* Assets */,
 				106972FE253C49FF000493C7 /* SwiftUI_Video_BackgroundApp.swift */,
 				10697300253C49FF000493C7 /* ContentView.swift */,
 				10697302253C4A00000493C7 /* Assets.xcassets */,
 				10697307253C4A00000493C7 /* Info.plist */,
 				10697304253C4A00000493C7 /* Preview Content */,
+				1069732C253C4A22000493C7 /* LoopingPlayer.swift */,
 			);
 			path = "SwiftUI Video Background";
 			sourceTree = "<group>";
@@ -128,6 +134,14 @@
 				1069731D253C4A00000493C7 /* Info.plist */,
 			);
 			path = "SwiftUI Video BackgroundUITests";
+			sourceTree = "<group>";
+		};
+		10697335253C4D31000493C7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1069733A253C4DF4000493C7 /* freestyle.mov */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1069733B253C4DF4000493C7 /* freestyle.mov in Resources */,
 				10697306253C4A00000493C7 /* Preview Assets.xcassets in Resources */,
 				10697303253C4A00000493C7 /* Assets.xcassets in Resources */,
 			);
@@ -261,6 +276,7 @@
 			files = (
 				10697301253C49FF000493C7 /* ContentView.swift in Sources */,
 				106972FF253C49FF000493C7 /* SwiftUI_Video_BackgroundApp.swift in Sources */,
+				1069732D253C4A22000493C7 /* LoopingPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
